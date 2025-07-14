@@ -30,7 +30,7 @@ const Collection = () => {
             <div className="absolute bottom-5 left-7">
               <p className="text-[14px]">HOT LIST</p>
               <p className="text-[26px] font-medium">
-                <span className="font-bold">WOMEN</span> COLLECTION
+                <span className="font-bold">MEN</span> COLLECTION
               </p>
               <Hover className={"text-[14px] font-medium"} text={"SHOP NOW"} />
             </div>
@@ -43,7 +43,7 @@ const Collection = () => {
               <div className="absolute bottom-5 left-7">
                 <p className="text-[14px]">HOT LIST</p>
                 <p className="text-[26px] font-medium">
-                  <span className="font-bold">WOMEN</span> COLLECTION
+                  <span className="font-bold">KIDS</span> COLLECTION
                 </p>
                 <Hover
                   className={"text-[14px] font-medium"}
