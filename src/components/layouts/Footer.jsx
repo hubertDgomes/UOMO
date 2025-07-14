@@ -5,6 +5,7 @@ import Images from "../Images";
 import logo from "/src/assets/logo.png";
 import social from "/src/assets/social.png";
 import Menu from "../Menu";
+import card from '/src/assets/cards.png'
 
 const Footer = () => {
   return (
@@ -21,9 +22,11 @@ const Footer = () => {
               <p className="font-medium text-[14px]">+1 246-345-0695</p>
               <Images className={"mt-[40px]"} src={social} />
             </div>
-            
+
             <div className="w-[130px]">
-              <p className="text-[18px] font-medium font-Menu mb-[30px]">COMPANY</p>
+              <p className="text-[18px] font-medium font-Menu mb-[30px]">
+                COMPANY
+              </p>
               <div className="">
                 <Menu text={"About Us"} className="mb-3" />
                 <Menu text={"Careers"} className="mb-3" />
@@ -33,9 +36,10 @@ const Footer = () => {
               </div>
             </div>
 
-
             <div className="">
-              <p className="text-[18px] font-medium font-Menu mb-[30px]">SHOP</p>
+              <p className="text-[18px] font-medium font-Menu mb-[30px]">
+                SHOP
+              </p>
               <div className="">
                 <Menu text={"New Arrivals"} className="mb-3" />
                 <Menu text={"Accessories"} className="mb-3" />
@@ -45,9 +49,10 @@ const Footer = () => {
               </div>
             </div>
 
-
             <div className="">
-              <p className="text-[18px] font-medium font-Menu mb-[30px]">HELP</p>
+              <p className="text-[18px] font-medium font-Menu mb-[30px]">
+                HELP
+              </p>
               <div className="">
                 <Menu text={"Customer Service"} className="mb-3" />
                 <Menu text={"My Account"} className="mb-3" />
@@ -56,6 +61,20 @@ const Footer = () => {
                 <Menu text={"Contact"} className="mb-3" />
                 <Menu text={"Gift Card"} className="mb-3" />
               </div>
+            </div>
+
+            <div className="w-[340px]">
+              <p className="text-[18px] font-medium font-Menu mb-[30px]">
+                SUBSCRIBE
+              </p>
+              <p className="font-Menu text-[14px]">
+                Be the first to get the latest news about trends, promotions,
+                and much more!
+              </p>
+              <input className="placeholder:font-Menu placeholder:text-[14px] placeholder:text-black mt-[20px]" placeholder="Your email address"/>
+              <button className="font-Menu tex-[14px] ">JOIN</button>
+              <p className="font-Menu text-[15px] mt-[30px] font-semibold">Secure payments</p>
+              <Images className={"mt-[20px]"} src={card}/>
             </div>
           </div>
         </Container>
