@@ -10,8 +10,8 @@ const Trendy = () => {
   const TrendG = ({img,namePro,price}) => {
     return (
       <>
-        <div className="w-[330px] font-Menu cursor-pointer">
-          <Images src={img} />
+        <div className="w-[330px] font-Menu cursor-pointer relative group">
+          <Images className={"scale-x-[1] hover:scale-x-[-1]"} src={img} />
           <div className="flex justify-between py-[8px]">
             <div className="">
               <p className="mb-[10px]">Dresses</p>
@@ -22,6 +22,7 @@ const Trendy = () => {
                 <CiHeart />
             </div>
           </div>
+          <button className="absolute py-[10px] px-[20px] w-[300px] bg-white bottom-[113px] left-[16px] cursor-pointer opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 font-Menu">Add To Cart</button>
         </div>
       </>
     );

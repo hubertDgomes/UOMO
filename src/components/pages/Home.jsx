@@ -13,6 +13,7 @@ const Home = () => {
     <Collection/>
     <Trendy/>
     <Banner2/>
+    
     </>
 
   );
