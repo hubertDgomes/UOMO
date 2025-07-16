@@ -33,10 +33,10 @@ const Trendy = () => {
     <>
       <Container className={"py-[60px]"}>
         <div className="text-center">
-          <p className="text-[35px] font-Menu ">
+          <p className="text-[24px] lg:text-[35px] font-Menu ">
             OUR TRENDY <span className="font-bold">PRODUCTS</span>
           </p>
-          <Flex className={"justify-center gap-x-[60px] mt-[20px]"}>
+          <Flex className={"justify-center gap-x-[20px] lg:gap-x-[60px] mt-[20px]"}>
             <Menu text={"All"} />
             <Menu text={"NEWARRIVALS"} />
             <Menu text={"BEST SELLER"} />
