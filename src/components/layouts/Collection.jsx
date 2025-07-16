@@ -27,7 +27,7 @@ const Collection = () => {
           <div className="relative h-[285px] font-Menu">
             <Images src={person3} />
 
-            <div className="absolute bottom-5 left-7">
+            <div className="absolute bottom-33 lg:bottom-5 left-7">
               <p className="text-[14px]">HOT LIST</p>
               <p className="text-[26px] font-medium">
                 <span className="font-bold">MEN</span> COLLECTION
@@ -36,7 +36,7 @@ const Collection = () => {
             </div>
           </div>
           <div
-            className={"mt-[30px] flex flex-col lg:flex-row justify-between"}
+            className={"mt-[30px] flex flex-col lg:flex-row justify-between items-center lg:items-start"}
           >
             <div className="relative w-[330px] h-[285px] mb-[20px]">
               <Images src={person4} />

@@ -32,7 +32,7 @@ const UOMO = () => {
     <>
     <Container className={"py-[60px]"}>
         <p className='text-[35px] font-Menu text-center mb-[20px]'>@UOMO</p>
-        <Flex className={"justify-between flex-wrap gap-y-[20px]"}>
+        <Flex className={"justify-between flex-wrap gap-y-[20px] flex-col lg:flex-row"}>
             <Uomo uomo={uomo1}/>
             <Uomo uomo={uomo2}/>
             <Uomo uomo={uomo3}/>
