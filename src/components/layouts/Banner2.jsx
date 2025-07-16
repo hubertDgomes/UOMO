@@ -6,9 +6,9 @@ import Counter from "./Counter";
 const Banner2 = () => {
   return (
     <>
-      <div className="bg-[#E8E8EA]">
+      <div className="bg-[#E8E8EA] w-full">
         <Container className={"py-[30px]"}>
-        <div className="bg-[url(/src/assets/banner2.png)] bg-no-repeat bg-center bg-cover py-[100px]">
+        <div className="lg:bg-[url(/src/assets/banner2.png)] bg-no-repeat bg-center bg-cover py-[100px]">
           <div className="ml-[20px] relative">
             <Flex className={""}>
             <span className="h-[2px] w-[40px] bg-[#C32929] shadow-lg mr-[10px]"></span>

@@ -13,12 +13,12 @@ import Menu from "../Menu";
 const Header = () => {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-md">
+      <div className="lg:fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-md">
         <Container className={"py-[30px]"}>
         <Flex className={"justify-between"}>
           <Flex>
             <Images src={logo} className={"mr-[40px]"} />
-            <Flex className={"gap-x-[40px]"}>
+            <Flex className={"hidden lg:flex gap-x-[40px]"}>
               <Menu text={"HOME"} />
               <Menu text={"SHOP"} />
               <Menu text={"COLLECTION"} />

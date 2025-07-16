@@ -10,7 +10,7 @@ const Banner = () => {
   return (
     <>
       
-        <div className="bg-[#f5e6e0] rounded-2xl border-2 border-amber-200">
+        <div className="bg-[#f5e6e0]">
           <div className="bg-[url(/src/assets/layerBG.png)] bg-no-repeat bg-center bg-cover pt-[80px]">
           <Container>
             
