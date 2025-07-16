@@ -5,6 +5,8 @@ import Trendy from "../layouts/Trendy";
 import Counter from "../layouts/Counter";
 import Banner2 from "../layouts/Banner2";
 import Additional from "../layouts/Additional";
+import Limited from "../layouts/Limited";
+import UOMO from "../layouts/UOMO";
 
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
     <Trendy/>
     <Banner2/>
     <Additional/>
+    <Limited/>
+    <UOMO/>
     </>
 
   );
