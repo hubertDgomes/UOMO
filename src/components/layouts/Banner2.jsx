@@ -6,7 +6,7 @@ import Counter from "./Counter";
 const Banner2 = () => {
   return (
     <>
-      <div className="bg-[#E8E8EA] w-[409px] lg:w-full">
+      <div className="bg-[#E8E8EA] w-[382px] lg:w-full m-auto">
         <Container className={"py-[30px]"}>
         <div className="lg:bg-[url(/src/assets/banner2.png)] bg-no-repeat bg-center bg-cover py-[100px]">
           <div className="ml-[20px] relative">

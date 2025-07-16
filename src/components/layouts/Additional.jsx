@@ -11,7 +11,7 @@ const Additional = () => {
   return (
     <Container className={"py-[60px]"}>
       <Flex className={"justify-between flex flex-col lg:flex-row"}>
-        <div className="lg:w-[690px] relative mb-[20px] lg:mb-0">
+        <div className="lg:w-[690px] w-[384px] relative mb-[20px] lg:mb-0">
           <Images src={red} />
           <div className="absolute text-white bottom-[20px] left-[24px]">
             <p className="text-[14px]">STARTING AT $19</p>
@@ -22,7 +22,7 @@ const Additional = () => {
           </div>
         </div>
 
-        <div className="lg:w-[690px] relative">
+        <div className="lg:w-[690px] w-[384px] relative">
           <Images src={red2} />
           <div className="absolute bottom-[20px] left-[24px]">
             <p className="text-[14px]">STARTING AT $39</p>

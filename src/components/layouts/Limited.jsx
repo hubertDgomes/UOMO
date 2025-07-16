@@ -14,7 +14,7 @@ import Slider from "react-slick";
 const Items = ({ itemName, price, img, orgPR, className }) => {
   return (
     <>
-      <div className="w-[330px] relative group cursor-pointer m-auto">
+      <div className="lg:w-[330px] w-[200px] relative group cursor-pointer m-auto">
         <Images src={img} />
         <div className="py-[10px]">
           <div className="flex justify-between">
@@ -81,7 +81,7 @@ const Limited = () => {
   return (
     <>
       <Container className={"py-[60px]"}>
-        <p className="text-center font-Menu text-[35px] ">
+        <p className="text-center font-Menu text-[24px] lg:text-[35px] ">
           LIMITED <span className="font-bold">EDITION</span>
         </p>
         <div className="slider-container">

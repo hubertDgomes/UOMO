@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
     <Container className={"py-[30px]"}>
-        <Flex className={"justify-evenly"}>
+        <Flex className={"justify-evenly flex-col lg:flex-row"}>
             <div className="w-[244px] text-center">
                 <Images className={"m-auto"} src={vec1}/>
                 <p className='font-Menu text-[18px] font-medium mt-[20px] mb-[10px]'>FAST AND FREE DELIVERY</p>
