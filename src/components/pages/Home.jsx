@@ -7,6 +7,7 @@ import Banner2 from "../layouts/Banner2";
 import Additional from "../layouts/Additional";
 import Limited from "../layouts/Limited";
 import UOMO from "../layouts/UOMO";
+import Contact from "../layouts/Contact";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
     <Additional/>
     <Limited/>
     <UOMO/>
+    <Contact/>
     </>
 
   );
